@@ -72,14 +72,25 @@ figure, p {
   width: 80%;
 }
 
+#carouselExampleIndicators img {
+  margin: 0!important;
+  width: 100%;
+}
+
 @media (min-width: 1200px) {
   .correction {
-    margin-top:350px;
+    margin-top:200px;
   }
 }
 
 .carousel-caption {
   margin-bottom: 20px;
+}
+
+form.talk-form {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 80px;
 }
 
 .about-bg {
