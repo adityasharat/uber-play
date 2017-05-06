@@ -67,6 +67,21 @@ figure, p {
   margin: 10px;
 }
 
+#carouselExampleIndicators {
+  margin: 20px auto;
+  width: 80%;
+}
+
+@media (min-width: 1200px) {
+  .correction {
+    margin-top:350px;
+  }
+}
+
+.carousel-caption {
+  margin-bottom: 20px;
+}
+
 .about-bg {
   background: url('assets/about.jpg') no-repeat;
   background-size: cover;
