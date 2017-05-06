@@ -1,0 +1,70 @@
+.full {
+  width: 100%;
+  height: 100%;
+}
+.section-layout {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.slide-block {
+  width: 100%;
+  float: left;
+  display: table;
+  padding: 10%;
+  height: 100%;
+}
+
+figure, p {
+  margin: 0;
+}
+
+.slide-block p.title, .slide-block p.sub-title {
+  font-family: Campton-Bold,"Helvetica Neue",Arial,sans-serif;
+}
+
+.slide-block p.title {
+  font-size: 56px;
+  line-height: 53px;
+  float: left;
+  width: 100%;
+}
+
+.slide-block p.title span {
+  display: block;
+  float: left;
+  padding: 10px 10px 5px;
+  background-color: #fff;
+}
+
+.slide-block p.description {
+  font-size: 18px;
+  font-family: Campton-Book,"Helvetica Neue",Arial,sans-serif;
+  line-height: 27px;
+  color: #fff;
+  max-width: 600px;
+  letter-spacing: 1px;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.about-bg {
+  background: url('assets/about.jpg') no-repeat;
+  background-size: cover;
+}
+
+.know-bg {
+  background: url('assets/know.jpg') no-repeat;
+  background-size: cover;
+}
+
+.stories-bg {
+  background: url('assets/stories.jpg') no-repeat;
+  background-size: cover;
+}
+
+.talk-bg {
+
+}

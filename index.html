@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <title>Uber Play</title>
-
-    <link rel="stylesheet" type="text/css" href="/libs/bootstrap/bootstrap.min.css">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <body class="full">
+    <div class="full bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
+      <header class="bmd-layout-header">
+        <div class="navbar navbar-light bg-faded">
+          <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+          <span class="sr-only">Toggle drawer</span>
+          <i class="material-icons">menu</i>
+          </button>
+          <ul class="nav navbar-nav">
+            <li class="nav-item">Uber Play</li>
+          </ul>
+        </div>
+      </header>
+      <div id="dw-s2" class="bmd-layout-drawer bg-faded">
+        <header>
+          <a class="navbar-brand">Uber Play</a>
+        </header>
+        <ul class="list-group">
+          <a href="#know" class="list-group-item">Know More</a>
+          <a href="#stories" class="list-group-item">Stories</a>
+          <a href="#talk" class="list-group-item">Talk to us!</a>
+        </ul>
+      </div>
+      <main class="full bmd-layout-content">
+        <div class="full container">
 
-  <body>
+          <section name="about" class="clearfix section-layout">
+            <div class="slide-block about-bg">
+              <p class="title"><span>Introduce the product here</span></p>
+              <p class="description">See <code>style.css</code> <code>.about-bg</code> to change the background image.</p>
+            </div>
+          </section>
 
-    <script type="text/javascript" src="/libs/bootstrap/bootstrap.min.js" />
+          <section name="know" class="clearfix section-layout">
+            <div class="slide-block know-bg">
+              <p class="title"><span>Features</span></p>
+            </div>
+          </section>
+
+          <section name="stories" class="clearfix section-layout">
+            <div class="slide-block stories-bg">
+              <p class="title"><span>Stories</span></p>
+            </div>
+          </section>
+
+          <section name="talk" class="clearfix section-layout">
+            <div class="slide-block talk-bg">
+              <p class="title"><span>Talk to us!</span></p>
+            </div>
+          </section>
+
+        </div>
+      </main>
+    </div>
+    <!-- jQuery first, then tether, then Bootstrap Material Design JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdn.rawgit.com/HubSpot/tether/v1.3.4/dist/js/tether.min.js"></script>
+    <script src="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.iife.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    $('body').bootstrapMaterialDesign();
+    </script>
   </body>
 </html>
