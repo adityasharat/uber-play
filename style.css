@@ -1,3 +1,8 @@
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1920px;
+  }
+}
 .full {
   width: 100%;
   height: 100%;
@@ -35,7 +40,10 @@ figure, p {
   display: block;
   float: left;
   padding: 10px 10px 5px;
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
 
 .slide-block p.description {
@@ -48,6 +56,15 @@ figure, p {
   float: left;
   margin-bottom: 30px;
   margin-top: 15px;
+}
+
+.slide-block ul {
+  color: #fff;
+  padding: 10%;
+}
+
+.slide-block ul li {
+  margin: 10px;
 }
 
 .about-bg {
